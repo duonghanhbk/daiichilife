@@ -20,16 +20,16 @@ const Footer = () => {
                                 <span className="icon">
                                     <i className="fas fa-phone" />
                                 </span>
-                                <Link href="tel:0978041365" className="has-text-white">
-                                    0978041365
+                                <Link href="tel:0832882222" className="has-text-white">
+                                    0832882222
                                 </Link>
                             </li>
                             <li>
                                 <span className="icon">
                                     <i className="fas fa-envelope" />
                                 </span>
-                                <Link href="mailto:baohiemdaiichilifes@gmail.com" className="has-text-white">
-                                    baohiemdaiichilifes@gmail.com
+                                <Link href="mailto:info@baohiemdai-ichi-life.vn" className="has-text-white">
+                                    info@baohiemdai-ichi-life.vn
                                 </Link>
                             </li>
                             <li>

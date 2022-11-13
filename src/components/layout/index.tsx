@@ -14,12 +14,21 @@ const Layout = ({ children }: LayoutProps) => {
             <Header />
             {children}
             <Footer />
+            <div className="list-shortcut-desktop show-desktop-alo" style={{ left: 20, bottom: 140 }}>
+                <Link
+                    target="_blank"
+                    className="shortcut-alo-alo shortcut-show-zalo"
+                    id="shortcut-alongay-zalo"
+                    href="https://zalo.me/0832882222"
+                />
+            </div>
+
             <div>
                 <Link
                     id="btn-call-popup"
                     style={{ textDecoration: 'none', left: 0, bottom: 10 }}
                     className="btn-call-popup"
-                    href="tel:0978041365"
+                    href="tel:0832882222"
                 >
                     <span
                         style={{
@@ -35,7 +44,7 @@ const Layout = ({ children }: LayoutProps) => {
                             display: 'none',
                         }}
                     >
-                        0978041365
+                        0832882222
                     </span>
                     <Image
                         style={{
@@ -64,7 +73,7 @@ const Layout = ({ children }: LayoutProps) => {
                             display: 'inline',
                         }}
                     >
-                        0978041365
+                        0832882222
                     </span>
                 </Link>
             </div>

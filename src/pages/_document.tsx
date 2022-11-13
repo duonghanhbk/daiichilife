@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
 
 export default class MyDocument extends Document {
     render() {
@@ -20,7 +19,7 @@ export default class MyDocument extends Document {
                     <meta name="twitter:description" content="Công Ty TNHH Bảo Hiểm Nhân Thọ Dai-ichi Life Việt Nam" />
                     <meta name="twitter:title" content="Công Ty TNHH Bảo Hiểm Nhân Thọ Dai-ichi Life Việt Nam" />
                     <meta property="og:image" content="/images/common/dai-ichi-life-logo.png" />
-                    <link rel="icon" href="/images/favicon.png" />
+                    <link rel="icon" href="/favicon.png" />
 
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />

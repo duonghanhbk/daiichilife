@@ -71,8 +71,8 @@ const Header = () => {
                         <div className="navbar-end">
                             <div className="navbar-item">
                                 <div className="buttons ">
-                                    <Link href="tel:0978041365" className="button is-primary botron_header_hotline">
-                                        <strong>Tel : 0978041365</strong>
+                                    <Link href="tel:0832882222" className="button is-primary botron_header_hotline">
+                                        <strong>Tel : 0832882222</strong>
                                     </Link>
                                 </div>
                             </div>

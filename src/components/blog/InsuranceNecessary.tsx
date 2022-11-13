@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Image from 'next/image'
 import Hotline from 'components/common/Hotline'
 import RelatedPost from 'components/common/RelatedPost'

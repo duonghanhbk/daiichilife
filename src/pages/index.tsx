@@ -1,4 +1,4 @@
-import Banner from 'components/common/Banner'
+import Banner from 'components/home/Banner'
 import Testimonial from 'components/home/Testimonial'
 import Article from 'components/home/Article'
 

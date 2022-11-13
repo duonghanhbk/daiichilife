@@ -19,8 +19,8 @@ const Hotline = () => {
                             <span style={{ color: '#ffffff' }}>
                                 <strong>
                                     Hotline:{' '}
-                                    <Link style={{ color: '#ffffff' }} href="tel:0978041365">
-                                        0978041365
+                                    <Link style={{ color: '#ffffff' }} href="tel:0832882222">
+                                        0832882222
                                     </Link>
                                 </strong>
                             </span>
