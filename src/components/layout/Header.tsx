@@ -22,7 +22,7 @@ const Header = () => {
                         Our Services
                     </a>
                     <div className="nav-item dropdown">
-                        <a href="#/" className="nav-link dropdown-toggle active" data-bs-toggle="dropdown">
+                        <a href="/#" className="nav-link dropdown-toggle active" data-bs-toggle="dropdown">
                             Pages
                         </a>
                         <div className="dropdown-menu bg-light border-0 m-0">
@@ -48,7 +48,7 @@ const Header = () => {
                     </a>
                 </div>
             </div>
-            <a href="#/" className="btn btn-primary px-3 d-none d-lg-block">
+            <a href="/#" className="btn btn-primary px-3 d-none d-lg-block">
                 Get A Quote
             </a>
         </nav>

@@ -13,16 +13,16 @@ const Footer = () => {
                             clita
                         </p>
                         <div className="d-flex pt-2">
-                            <a className="btn btn-square me-1" href="#/">
+                            <a className="btn btn-square me-1" href="/#">
                                 <i className="fab fa-twitter" />
                             </a>
-                            <a className="btn btn-square me-1" href="#/">
+                            <a className="btn btn-square me-1" href="/#">
                                 <i className="fab fa-facebook-f" />
                             </a>
-                            <a className="btn btn-square me-1" href="#/">
+                            <a className="btn btn-square me-1" href="/#">
                                 <i className="fab fa-youtube" />
                             </a>
-                            <a className="btn btn-square me-0" href="#/">
+                            <a className="btn btn-square me-0" href="/#">
                                 <i className="fab fa-linkedin-in" />
                             </a>
                         </div>
@@ -44,19 +44,19 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <h5 className="text-light mb-4">Quick Links</h5>
-                        <a className="btn btn-link" href="#/">
+                        <a className="btn btn-link" href="/#">
                             About Us
                         </a>
-                        <a className="btn btn-link" href="#/">
+                        <a className="btn btn-link" href="/#">
                             Contact Us
                         </a>
-                        <a className="btn btn-link" href="#/">
+                        <a className="btn btn-link" href="/#">
                             Our Services
                         </a>
-                        <a className="btn btn-link" href="#/">
+                        <a className="btn btn-link" href="/#">
                             Terms &amp; Condition
                         </a>
-                        <a className="btn btn-link" href="#/">
+                        <a className="btn btn-link" href="/#">
                             Support
                         </a>
                     </div>
@@ -76,7 +76,7 @@ const Footer = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            © <a href="#/">Your Site Name</a>, All Right Reserved.
+                            © <a href="/#">Your Site Name</a>, All Right Reserved.
                         </div>
                         <div className="col-md-6 text-center text-md-end">
                             Designed By <a href="https://htmlcodex.com">HTML Codex</a>

@@ -20,7 +20,7 @@ export default function Home() {
                                             <p className="fs-5 text-body mb-5">
                                                 Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
                                             </p>
-                                            <a href="#/" className="btn btn-primary py-3 px-5">
+                                            <a href="/#" className="btn btn-primary py-3 px-5">
                                                 More Details
                                             </a>
                                         </div>
@@ -40,7 +40,7 @@ export default function Home() {
                                             <p className="fs-5 text-body mb-5">
                                                 Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
                                             </p>
-                                            <a href="#/" className="btn btn-primary py-3 px-5">
+                                            <a href="/#" className="btn btn-primary py-3 px-5">
                                                 More Details
                                             </a>
                                         </div>

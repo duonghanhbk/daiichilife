@@ -31,12 +31,7 @@ export default class MyDocument extends Document {
                     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
                     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
                 </Head>
-                <Script
-                    src="https://code.jquery.com/jquery-3.6.0.min.js"
-                    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-                    crossOrigin="anonymous"
-                    strategy="beforeInteractive"
-                />
+
                 <body className="my-layout">
                     <Main />
                     <NextScript />

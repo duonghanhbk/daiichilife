@@ -3,10 +3,10 @@ import Head from 'next/head'
 import Script from 'next/script'
 import Layout from 'components/layout'
 
-import 'styles/css/style.css'
 import 'styles/css/bootstrap.min.css'
 import 'styles/animate/animate.min.css'
 import 'styles/animate/animate.css'
+import 'styles/css/style.css'
 
 function MyApp({ Component, pageProps }: AppProps) {
     return (
@@ -16,16 +16,14 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
 
-            <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" crossOrigin="anonymous" />
+            <Script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+                crossOrigin="anonymous"
+            />
             <Layout>
                 <Component {...pageProps} />
             </Layout>
-            <Script src="/assets/lib/wow/wow.min.js" crossOrigin="anonymous" />
-            {/* <Script src="/assets/lib/easing/easing.min.js" crossOrigin="anonymous" />
-            <Script src="/assets/lib/waypoints/waypoints.min.js" crossOrigin="anonymous" />
-            <Script src="/assets/lib/owlcarousel/owl.carousel.min.js" crossOrigin="anonymous" />
-            <Script src="/assets/lib/counterup/counterup.min.js" crossOrigin="anonymous" />
-            <Script src="/assets/js/main.js" crossOrigin="anonymous" /> */}
         </>
     )
 }
