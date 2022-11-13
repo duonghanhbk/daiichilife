@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Hotline from 'components/common/Hotline'
-import RelatedPost from 'components/common/RelatedPost'
+import RelatedNewsPost from 'components/common/RelatedNewsPost'
 
 const InsuranceCovid = () => {
     return (
@@ -118,7 +118,7 @@ const InsuranceCovid = () => {
                             </p>
 
                             <Hotline />
-                            <RelatedPost />
+                            <RelatedNewsPost />
                         </section>
                     </div>
                 </div>

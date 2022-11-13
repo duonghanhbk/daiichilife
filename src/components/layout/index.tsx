@@ -1,5 +1,6 @@
 import { ReactNode } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import Header from './Header'
 import Footer from './Footer'
 
@@ -36,7 +37,7 @@ const Layout = ({ children }: LayoutProps) => {
                     >
                         0978041365
                     </span>
-                    <img
+                    <Image
                         style={{
                             verticalAlign: 'middle',
                             boxShadow: '0 0 6px 0 rgba(0, 0, 0, 0.2)',
@@ -44,8 +45,10 @@ const Layout = ({ children }: LayoutProps) => {
                             zIndex: 2,
                             background: '#ff6b11',
                         }}
-                        src="https://bhdaiichilife.com/frontend/images/icon-desktop-phone.svg"
+                        src="/images/common/icon-desktop-phone.svg"
                         alt=""
+                        width={70}
+                        height={70}
                     />
                     <span
                         style={{

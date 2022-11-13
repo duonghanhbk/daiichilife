@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import classNames from 'classnames'
 import useScrolling from 'hooks/useScrolling'
 
@@ -9,13 +10,10 @@ const Header = () => {
             <nav className={classNames('navbar', isScroll && 'scrollq')} role="navigation" aria-label="main navigation">
                 <div className="container">
                     <div className="navbar-brand ">
-                        <Link className="navbar-item" href="https://bhdaiichilife.com">
+                        <Link className="navbar-item" href="/">
                             <picture>
-                                <source
-                                    media="(max-width: 768px)"
-                                    srcSet="https://bhdaiichilife.com/images/upload/dai-ichi-life-logo.png"
-                                />
-                                <img className="logo" src="https://bhdaiichilife.com/images/upload/dai-ichi-life-logo.png" alt="" />
+                                <source media="(max-width: 768px)" srcSet="/images/common/dai-ichi-life-logo.png" />
+                                <Image className="logo" src="/images/common/dai-ichi-life-logo.png" alt="" width={438} height={288} />
                             </picture>
                         </Link>
                         <Link
@@ -39,7 +37,7 @@ const Header = () => {
                                 Giới thiệu
                             </Link>
                             <div className="navbar-item has-dropdown is-hoverable">
-                                <Link className="navbar-item" href="/">
+                                <Link className="navbar-item" href="/cac-goi-bao-hiem">
                                     Các gói sản phẩm
                                 </Link>
                                 <div className="navbar-dropdown">

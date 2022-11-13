@@ -63,12 +63,7 @@ const Information = () => {
                         <div className="widget">
                             <h3 className="widget-title">Đăng ký tư vấn</h3>
                             <div className="widget-content">
-                                <form
-                                    className="phone-call-register9999"
-                                    action="https://bhdaiichilife.com/lien-he"
-                                    acceptCharset="UTF-8"
-                                    method="post"
-                                >
+                                <form className="phone-call-register9999" action="/lien-he" acceptCharset="UTF-8" method="post">
                                     <input type="hidden" name="_token" defaultValue="8Zl1zaelM8C0LfJggiFOXJXiyUVhy7dMUOAaXtQ7" />
                                     <div className="field">
                                         <div className="control has-icons-left has-icons-right">

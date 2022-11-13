@@ -228,32 +228,6 @@ const Listin = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="chiaba">
-                                        <div
-                                            className="card-content"
-                                            style={{
-                                                boxShadow: '0 1px 3px -2px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%)',
-                                                padding: 0,
-                                            }}
-                                        >
-                                            <figure className="image is-5by3">
-                                                <Link href="/bai-viet/thuat-ngu-trong-hop-dong-bao-hiem-dai-ichi-life">
-                                                    <Image src="/images/news/news_9.png" width={350} height={210} alt="" />
-                                                </Link>
-                                            </figure>
-                                            <h3 className="" style={{ fontSize: 18, margin: 10 }}>
-                                                <Link
-                                                    href="/bai-viet/thuat-ngu-trong-hop-dong-bao-hiem-dai-ichi-life"
-                                                    style={{ color: '#000' }}
-                                                >
-                                                    Thuật ngữ trong hợp đồng bảo hiểm Dai-Ichi Life
-                                                </Link>
-                                            </h3>
-                                            <div className="content" style={{ textAlign: 'justify', padding: 15 }}>
-                                                <p>Những thuật ngữ trong hợp đồng bảo hiểm DAI ICHI LIFE mà bạn không thể [...]</p>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                             </section>
                         </section>

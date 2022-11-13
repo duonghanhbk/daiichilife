@@ -1,5 +1,6 @@
 import { memo } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const RelatedPost = () => {
     return (
@@ -9,86 +10,95 @@ const RelatedPost = () => {
             </div>
             <div className="columns">
                 <div className="column is-half">
-                    <Link href="/bai-viet/tai-nan-dac-biet-trong-bao-hiem-nhan-tho">
+                    <Link href="/bai-viet/khach-hang-tung-mac-covid-co-duoc-tham-gia-bao-hiem-nhan-tho">
                         <div className="columns">
                             <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_06_10_09_54_58-ảnh tai nạn đặc boeets.png"
-                                    alt="Tai Nạn Đặc Biệt Trong Bảo Hiểm Nhân Thọ"
+                                <Image
+                                    width={1200}
+                                    height={628}
+                                    src="/images/news/news_1.png"
+                                    alt="Khách hàng từng mắc Covid có được tham gia bảo hiểm nhân thọ?"
                                 />
                             </div>
-                            <div className="column is-three-quarters">Tai Nạn Đặc Biệt Trong Bảo Hiểm Nhân Thọ</div>
+                            <div className="column is-three-quarters">Khách hàng từng mắc Covid có được tham gia bảo hiểm nhân thọ?</div>
                         </div>
                     </Link>
                 </div>
                 <div className="column is-half">
-                    <Link href="/bai-viet/bao-hiem-ho-tro-vien-phi">
+                    <Link href="/bai-viet/vua-bao-ve-gia-dinh-vua-co-co-hoi-nhan-uu-dai-lon">
                         <div className="columns">
                             <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_09_10_14_50_44-hỗ trợ viện phí.png"
-                                    alt="Bảo Hiểm Hỗ Trợ Viện Phí"
+                                <Image
+                                    width={1200}
+                                    height={628}
+                                    src="/images/news/news_2.png"
+                                    alt="VỪA BẢO VỆ GIA ĐÌNH – VỪA CÓ CƠ HỘI NHÂN ƯU ĐÃI LỚN"
                                 />
                             </div>
-                            <div className="column is-three-quarters">Bảo Hiểm Hỗ Trợ Viện Phí</div>
-                        </div>
-                    </Link>
-                </div>
-            </div>
-            <div className="columns">
-                <div className="column is-half">
-                    <Link href="/bai-viet/bao-hiem-benh-hiem-ngheo">
-                        <div className="columns">
-                            <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_07_10_16_02_40-bệnh hiểm nghèo new.png"
-                                    alt="Bảo Hiểm Bệnh Hiểm Nghèo"
-                                />
-                            </div>
-                            <div className="column is-three-quarters">Bảo Hiểm Bệnh Hiểm Nghèo</div>
-                        </div>
-                    </Link>
-                </div>
-                <div className="column is-half">
-                    <Link href="/bai-viet/bao-hiem-tai-nan-cao-cap">
-                        <div className="columns">
-                            <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_03_10_17_17_00-Bao-hiem-dai-ichi-life-viet-nam-Bao-hiem-tai-nan-cao-cap.jpeg"
-                                    alt="Bảo Hiểm Tai Nạn Cao Cấp"
-                                />
-                            </div>
-                            <div className="column is-three-quarters">Bảo Hiểm Tai Nạn Cao Cấp</div>
+                            <div className="column is-three-quarters">VỪA BẢO VỆ GIA ĐÌNH – VỪA CÓ CƠ HỘI NHÂN ƯU ĐÃI LỚN</div>
                         </div>
                     </Link>
                 </div>
             </div>
             <div className="columns">
                 <div className="column is-half">
-                    <Link href="/bai-viet/an-thinh-dau-tu-bao-hiem-dau-tu">
+                    <Link href="/bai-viet/trung-thu-doan-vien">
                         <div className="columns">
                             <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_07_10_15_50_15-đầu tư.png"
-                                    alt="An Thịnh Đầu Tư - Bảo Hiểm Đầu Tư"
-                                />
+                                <Image width={1200} height={628} src="/images/news/news_3.png" alt="Trung Thu Đoàn Viên" />
                             </div>
-                            <div className="column is-three-quarters">An Thịnh Đầu Tư - Bảo Hiểm Đầu Tư</div>
+                            <div className="column is-three-quarters">Trung Thu Đoàn Viên</div>
                         </div>
                     </Link>
                 </div>
                 <div className="column is-half">
-                    <Link href="/bai-viet/5-dieu-buoc-phai-biet-truoc-khi-dat-but-ky-hop-dong-bao-hiem-nhan-tho">
+                    <Link href="/bai-viet/dai-ichi-life-viet-nam-vuon-len-vi-tri-thu-3-trong-top-10-cong-ty-bao-hiem-nhan-tho-uy-tin-nam-2021">
                         <div className="columns">
                             <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_07_09_23_51_13-luu-y-truoc-khi-tham-gia-bao-hiem2.jpeg"
-                                    alt="5 điều buộc phải biết trước khi đặt bút ký hợp đồng bảo hiểm nhân thọ"
+                                <Image
+                                    width={1200}
+                                    height={628}
+                                    src="/images/news/news_4.png"
+                                    alt="Dai-ichi Life Việt Nam vươn lên vị trí thứ 3 trong Top 10 Công ty bảo hiểm nhân thọ uy tín năm 2021"
                                 />
                             </div>
                             <div className="column is-three-quarters">
-                                5 điều buộc phải biết trước khi đặt bút ký hợp đồng bảo hiểm nhân thọ
+                                Dai-ichi Life Việt Nam vươn lên vị trí thứ 3 trong Top 10 Công ty bảo hiểm nhân thọ uy tín năm 2021
                             </div>
+                        </div>
+                    </Link>
+                </div>
+            </div>
+            <div className="columns">
+                <div className="column is-half">
+                    <Link href="/bai-viet/dai-ichi-life-trien-khai-chuong-trinh-tri-an-chao-mung-4-trieu-khach-hang">
+                        <div className="columns">
+                            <div className="column is-one-quarter">
+                                <Image
+                                    width={1200}
+                                    height={628}
+                                    src="/images/news/news_5.png"
+                                    alt="Dai-ichi Life triển khai chương trình tri ân “Chào mừng 4 triệu khách hàng”"
+                                />
+                            </div>
+                            <div className="column is-three-quarters">
+                                Dai-ichi Life triển khai chương trình tri ân “Chào mừng 4 triệu khách hàng”
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <div className="column is-half">
+                    <Link href="/bai-viet/cung-nhin-lai-nam-2020-cua-dai-ichi-life-viet-nam">
+                        <div className="columns">
+                            <div className="column is-one-quarter">
+                                <Image
+                                    width={1200}
+                                    height={628}
+                                    src="/images/news/news_6.png"
+                                    alt="Cùng nhìn lại năm 2020 của Dai-ichi Life Việt Nam"
+                                />
+                            </div>
+                            <div className="column is-three-quarters">Cùng nhìn lại năm 2020 của Dai-ichi Life Việt Nam</div>
                         </div>
                     </Link>
                 </div>

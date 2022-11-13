@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Hotline from 'components/common/Hotline'
-import RelatedPost from 'components/common/RelatedPost'
 
 const InsuranceBanking = () => {
     return (
@@ -56,7 +55,55 @@ const InsuranceBanking = () => {
                             </p>
 
                             <Hotline />
-                            <RelatedPost />
+                            <div className="cothebanquantam">
+                                <div className="title_quantam has-text-weight-bold is-uppercase">
+                                    <Link href="/#">Có thể bạn quan tâm</Link>
+                                </div>
+                                <div className="columns">
+                                    <div className="column is-half">
+                                        <Link href="/bai-viet/huong-dan-dong-phi-bao-hiem-dai-ichi-life-viet-nam">
+                                            <div className="columns">
+                                                <div className="column is-one-quarter">
+                                                    <Image
+                                                        src="/images/service/service_2.png"
+                                                        width={1200}
+                                                        height={628}
+                                                        alt="Hướng dẫn đóng phí Bảo hiểm Dai-ichi Life Việt Nam"
+                                                    />
+                                                </div>
+                                                <div className="column is-three-quarters">
+                                                    Hướng dẫn đóng phí Bảo hiểm Dai-ichi Life Việt Nam
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                    <div className="column is-half">
+                                        <Link href="/bai-viet/giai-quyet-quyen-loi-bao-hiem-the-cham-soc-suc-khoe-dai-ichi-life">
+                                            <div className="columns">
+                                                <div className="column is-one-quarter">
+                                                    <Image
+                                                        src="/images/service/service_3.png"
+                                                        width={1200}
+                                                        height={628}
+                                                        alt="Giải quyết quyền lợi bảo hiểm thẻ chăm sóc sức khỏe Dai-ichi Life"
+                                                    />
+                                                </div>
+                                                <div className="column is-three-quarters">
+                                                    Giải quyết quyền lợi bảo hiểm thẻ chăm sóc sức khỏe Dai-ichi Life
+                                                </div>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </div>
+                                <div className="columns">
+                                    <div className="column is-half" />
+                                    <div className="column is-half" />
+                                </div>
+                                <div className="columns">
+                                    <div className="column is-half" />
+                                    <div className="column is-half" />
+                                </div>
+                            </div>
                         </section>
                     </div>
                 </div>

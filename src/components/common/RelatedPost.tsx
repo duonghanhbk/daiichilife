@@ -1,5 +1,6 @@
 import { memo } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const RelatedPost = () => {
     return (
@@ -12,8 +13,10 @@ const RelatedPost = () => {
                     <Link href="/bai-viet/tai-nan-dac-biet-trong-bao-hiem-nhan-tho">
                         <div className="columns">
                             <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_06_10_09_54_58-ảnh tai nạn đặc boeets.png"
+                                <Image
+                                    width={1280}
+                                    height={720}
+                                    src="/images/testimonial/testimonial_1.png"
                                     alt="Tai Nạn Đặc Biệt Trong Bảo Hiểm Nhân Thọ"
                                 />
                             </div>
@@ -25,8 +28,10 @@ const RelatedPost = () => {
                     <Link href="/bai-viet/bao-hiem-ho-tro-vien-phi">
                         <div className="columns">
                             <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_09_10_14_50_44-hỗ trợ viện phí.png"
+                                <Image
+                                    width={1280}
+                                    height={720}
+                                    src="/images/testimonial/testimonial_2.png"
                                     alt="Bảo Hiểm Hỗ Trợ Viện Phí"
                                 />
                             </div>
@@ -40,8 +45,10 @@ const RelatedPost = () => {
                     <Link href="/bai-viet/bao-hiem-benh-hiem-ngheo">
                         <div className="columns">
                             <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_07_10_16_02_40-bệnh hiểm nghèo new.png"
+                                <Image
+                                    width={1280}
+                                    height={720}
+                                    src="/images/testimonial/testimonial_3.png"
                                     alt="Bảo Hiểm Bệnh Hiểm Nghèo"
                                 />
                             </div>
@@ -53,8 +60,10 @@ const RelatedPost = () => {
                     <Link href="/bai-viet/bao-hiem-tai-nan-cao-cap">
                         <div className="columns">
                             <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_03_10_17_17_00-Bao-hiem-dai-ichi-life-viet-nam-Bao-hiem-tai-nan-cao-cap.jpeg"
+                                <Image
+                                    width={1280}
+                                    height={720}
+                                    src="/images/testimonial/testimonial_4.png"
                                     alt="Bảo Hiểm Tai Nạn Cao Cấp"
                                 />
                             </div>
@@ -68,8 +77,10 @@ const RelatedPost = () => {
                     <Link href="/bai-viet/an-thinh-dau-tu-bao-hiem-dau-tu">
                         <div className="columns">
                             <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_07_10_15_50_15-đầu tư.png"
+                                <Image
+                                    width={1280}
+                                    height={720}
+                                    src="/images/testimonial/testimonial_5.png"
                                     alt="An Thịnh Đầu Tư - Bảo Hiểm Đầu Tư"
                                 />
                             </div>
@@ -81,8 +92,10 @@ const RelatedPost = () => {
                     <Link href="/bai-viet/5-dieu-buoc-phai-biet-truoc-khi-dat-but-ky-hop-dong-bao-hiem-nhan-tho">
                         <div className="columns">
                             <div className="column is-one-quarter">
-                                <img
-                                    src="https://bhdaiichilife.com/upload/post/2021_07_09_23_51_13-luu-y-truoc-khi-tham-gia-bao-hiem2.jpeg"
+                                <Image
+                                    width={1280}
+                                    height={720}
+                                    src="/images/testimonial/testimonial_17.png"
                                     alt="5 điều buộc phải biết trước khi đặt bút ký hợp đồng bảo hiểm nhân thọ"
                                 />
                             </div>

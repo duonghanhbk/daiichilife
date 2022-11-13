@@ -327,7 +327,7 @@ const Baby = () => {
                             </tbody>
                         </table>
                         <p>
-                            <img alt="" src="/public/upload/files/quy-trinh-giai-quyet-quyen-loi-dai-ichi-life.png" />
+                            <Image alt="" src="/images/blogs/quy-trinh-giai-quyet-quyen-loi-dai-ichi-life.png" width={1200} height={561} />
                         </p>
                         <div className="box_hotline247">
                             <div id="col-875843490" className="col small-12 large-12">

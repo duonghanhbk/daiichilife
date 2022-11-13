@@ -1,5 +1,5 @@
+import Banner from 'components/common/Banner'
 import Listin from 'components/service/Listin'
-import Banner from 'components/service/Banner'
 
 const Services = () => {
     return (

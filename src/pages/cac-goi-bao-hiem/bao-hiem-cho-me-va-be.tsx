@@ -1,5 +1,5 @@
+import Banner from 'components/common/Banner'
 import MomBaby from 'components/package/MomBaby'
-import Banner from 'components/package/Banner'
 
 const MomAndBabyPackage = () => (
     <>

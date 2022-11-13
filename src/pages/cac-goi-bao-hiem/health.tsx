@@ -1,5 +1,5 @@
+import Banner from 'components/common/Banner'
 import Health from 'components/package/Health'
-import Banner from 'components/package/Banner'
 
 const HealthPackage = () => (
     <>

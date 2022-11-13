@@ -1,5 +1,6 @@
 import { memo } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Article = () => {
     return (
@@ -41,8 +42,10 @@ const Article = () => {
                                     <div className="card">
                                         <div className="card-image has-text-centered">
                                             <p style={{ marginBottom: 0 }}>
-                                                <img
-                                                    src="https://bhdaiichilife.com/upload/post/2021_09_03_00_56_36-bao-ve-tru-cot-5557fe05da5b3384f5f64c0f4c8dfcee76b19f734108f1a0dc816972a7b47d62.jpg"
+                                                <Image
+                                                    width={480}
+                                                    height={288}
+                                                    src="/images/home/2021_09_03_00_56_36-bao-ve-tru-cot-5557fe05da5b3384f5f64c0f4c8dfcee76b19f734108f1a0dc816972a7b47d62.jpg"
                                                     alt=""
                                                 />
                                             </p>
@@ -56,8 +59,10 @@ const Article = () => {
                                     <div className="card">
                                         <div className="card-image has-text-centered">
                                             <p style={{ marginBottom: 0 }}>
-                                                <img
-                                                    src="https://bhdaiichilife.com/upload/post/2021_09_03_00_57_10-bao-ve-thu-nhap-113303e1db29757e282b08ee7d98106423005f3046e29ba8ea649c7ce822c1f0.jpg"
+                                                <Image
+                                                    width={480}
+                                                    height={288}
+                                                    src="/images/home/2021_09_03_00_57_10-bao-ve-thu-nhap-113303e1db29757e282b08ee7d98106423005f3046e29ba8ea649c7ce822c1f0.jpg"
                                                     alt=""
                                                 />
                                             </p>
@@ -71,8 +76,10 @@ const Article = () => {
                                     <div className="card">
                                         <div className="card-image has-text-centered">
                                             <p style={{ marginBottom: 0 }}>
-                                                <img
-                                                    src="https://bhdaiichilife.com/upload/post/2021_09_03_00_57_34-tiet-kiem-096ed445a6af16346e48e9e89a3cbaef402062c1f2d9ec036f93e07db085d015.jpg"
+                                                <Image
+                                                    width={480}
+                                                    height={288}
+                                                    src="/images/home/2021_09_03_00_57_34-tiet-kiem-096ed445a6af16346e48e9e89a3cbaef402062c1f2d9ec036f93e07db085d015.jpg"
                                                     alt=""
                                                 />
                                             </p>
@@ -86,8 +93,10 @@ const Article = () => {
                                     <div className="card">
                                         <div className="card-image has-text-centered">
                                             <p style={{ marginBottom: 0 }}>
-                                                <img
-                                                    src="https://bhdaiichilife.com/upload/post/2021_09_03_00_57_50-cham-soc-suc-khoe-af8bc4cd469e28bc3ceeac899dd91ce0eecffb9f47f9bf1ab059fea12afe7e45.jpg"
+                                                <Image
+                                                    width={480}
+                                                    height={288}
+                                                    src="/images/home/2021_09_03_00_57_50-cham-soc-suc-khoe-af8bc4cd469e28bc3ceeac899dd91ce0eecffb9f47f9bf1ab059fea12afe7e45.jpg"
                                                     alt=""
                                                 />
                                             </p>
@@ -263,8 +272,10 @@ const Article = () => {
                                 <div className="card-image">
                                     <figure className="image is-4by3">
                                         <Link href="/cac-goi-bao-hiem/bao-hiem-danh-cho-ca-gia-dinh">
-                                            <img
-                                                src="upload/cateproduct2021_25_08_08_31_11-content_bao-hiem-cho-ca-gia-dinh.png"
+                                            <Image
+                                                width={1200}
+                                                height={800}
+                                                src="/images/packages/cateproduct2021_25_08_08_31_11-content_bao-hiem-cho-ca-gia-dinh.png"
                                                 style={{ borderBottom: '5px solid #ee1c23' }}
                                                 alt=""
                                             />
@@ -305,8 +316,10 @@ const Article = () => {
                                 <div className="card-image">
                                     <figure className="image is-4by3">
                                         <Link href="/cac-goi-bao-hiem/bao-hiem-cho-me-va-be">
-                                            <img
-                                                src="upload/cateproduct2020_14_12_14_13_37-bh-me-va-be-65f6355d4f13e2010d7f85268ad879a937b298c6ac119725569ba655f0b2e419.jpg"
+                                            <Image
+                                                width={1200}
+                                                height={800}
+                                                src="/images/packages/cateproduct2020_14_12_14_13_37-bh-me-va-be.jpg"
                                                 style={{ borderBottom: '5px solid #ee1c23' }}
                                                 alt=""
                                             />
@@ -347,8 +360,10 @@ const Article = () => {
                                 <div className="card-image">
                                     <figure className="image is-4by3">
                                         <Link href="/cac-goi-bao-hiem/bao-hiem-doc-lap-cho-be-yeu">
-                                            <img
-                                                src="upload/cateproduct2021_13_10_14_40_37-em-be.png"
+                                            <Image
+                                                width={1200}
+                                                height={800}
+                                                src="/images/packages/cateproduct2021_13_10_14_40_37-em-be.png"
                                                 style={{ borderBottom: '5px solid #ee1c23' }}
                                                 alt=""
                                             />
@@ -389,8 +404,10 @@ const Article = () => {
                                 <div className="card-image">
                                     <figure className="image is-4by3">
                                         <Link href="/cac-goi-bao-hiem/bao-hiem-cham-soc-suc-khoe">
-                                            <img
-                                                src="upload/cateproduct2021_25_08_08_30_38-bao-hiem-doc-than-1-1.png"
+                                            <Image
+                                                width={1200}
+                                                height={800}
+                                                src="/images/packages/cateproduct2021_25_08_08_30_38-bao-hiem-doc-than-1-1.png"
                                                 style={{ borderBottom: '5px solid #ee1c23' }}
                                                 alt=""
                                             />
@@ -430,7 +447,7 @@ const Article = () => {
             </div>
             <div className="danhmuc_hienhome">
                 <div className="container">
-                    <Link href="https://bhdaiichilife.com/bai-viet/cau-chuyen-bao-hiem">
+                    <Link href="/bai-viet/cau-chuyen-bao-hiem">
                         <div className="title_dm_hienhome">
                             Câu chuyện bảo hiểm <span>Xem thêm</span>
                         </div>
@@ -441,10 +458,11 @@ const Article = () => {
                         <div className="column is-flex has-text-centered">
                             <Link href="/bai-viet/bao-hiem-gia-dinh-song-hanh-bao-ve">
                                 <p>
-                                    <img
-                                        src="https://bhdaiichilife.com/upload/post/2021_13_10_14_38_15-daiichilife-q7.png"
+                                    <Image
+                                        width={438}
+                                        height={288}
+                                        src="/images/testimonial/testimonial_18.png"
                                         alt="Bảo Hiểm Gia Đình – Song Hành Bảo Vệ"
-                                        width="100%"
                                     />
                                 </p>
                                 <p className="has-text-weight-bold">Bảo Hiểm Gia Đình – Song Hành Bảo Vệ</p>
@@ -453,10 +471,11 @@ const Article = () => {
                         <div className="column is-flex has-text-centered">
                             <Link href="/bai-viet/uu-diem-the-cham-soc-suc-khoe-toan-cau-dai-ichi">
                                 <p>
-                                    <img
-                                        src="https://bhdaiichilife.com/upload/post/2021_04_10_14_08_16-baohiem_sk.jpg"
+                                    <Image
+                                        width={438}
+                                        height={288}
+                                        src="/images/testimonial/testimonial_15.png"
                                         alt="Ưu điểm thẻ chăm sóc sức khỏe toàn cầu Dai-ichi"
-                                        width="100%"
                                     />
                                 </p>
                                 <p className="has-text-weight-bold">Ưu điểm thẻ chăm sóc sức khỏe toàn cầu Dai-ichi</p>
@@ -465,10 +484,11 @@ const Article = () => {
                         <div className="column is-flex has-text-centered">
                             <Link href="/bai-viet/bao-hiem-nhan-tho-co-thuc-su-can-thiet">
                                 <p>
-                                    <img
-                                        src="https://bhdaiichilife.com/upload/post/2021_04_10_14_10_30-chungtay.jpg"
+                                    <Image
+                                        width={438}
+                                        height={288}
+                                        src="/images/testimonial/testimonial_14.png"
                                         alt="Bảo hiểm nhân thọ có thực sự cần thiết?"
-                                        width="100%"
                                     />
                                 </p>
                                 <p className="has-text-weight-bold">Bảo hiểm nhân thọ có thực sự cần thiết?</p>
@@ -479,10 +499,11 @@ const Article = () => {
                         <div className="column is-flex has-text-centered">
                             <Link href="/bai-viet/thiet-thoi-khi-cham-dut-hop-dong-bao-hiem-nhan-tho">
                                 <p>
-                                    <img
-                                        src="https://bhdaiichilife.com/upload/post/2021_13_09_08_36_36-ban-can-tien-cho-cuoc-song.png"
+                                    <Image
+                                        width={438}
+                                        height={288}
+                                        src="/images/testimonial/testimonial_11.png"
                                         alt="Thiệt thòi khi chấm dứt hợp đồng bảo hiểm nhân thọ"
-                                        width="100%"
                                     />
                                 </p>
                                 <p className="has-text-weight-bold">Thiệt thòi khi chấm dứt hợp đồng bảo hiểm nhân thọ</p>
@@ -491,10 +512,11 @@ const Article = () => {
                         <div className="column is-flex has-text-centered">
                             <Link href="/bai-viet/phi-roi-trong-bao-hiem-nhan-tho">
                                 <p>
-                                    <img
-                                        src="https://bhdaiichilife.com/upload/post/2021_07_09_16_13_30-ảnh 3.jpeg"
+                                    <Image
+                                        width={438}
+                                        height={288}
+                                        src="/images/testimonial/testimonial_9.png"
                                         alt="Phí Rơi Trong Bảo Hiểm Nhân Thọ"
-                                        width="100%"
                                     />
                                 </p>
                                 <p className="has-text-weight-bold">Phí Rơi Trong Bảo Hiểm Nhân Thọ</p>
@@ -503,10 +525,11 @@ const Article = () => {
                         <div className="column is-flex has-text-centered">
                             <Link href="/bai-viet/bao-hiem-suc-khoe-lua-chon-cho-tuong-lai">
                                 <p>
-                                    <img
-                                        src="https://bhdaiichilife.com/upload/post/2021_07_09_23_32_54-Bao-hiem-suc-khoe-Bao-hiem-Dai-ichi-life-viet-nam.jpeg"
+                                    <Image
+                                        width={438}
+                                        height={288}
+                                        src="/images/testimonial/testimonial_7.png"
                                         alt="Bảo hiểm sức khỏe – lựa chọn cho tương lai"
-                                        width="100%"
                                     />
                                 </p>
                                 <p className="has-text-weight-bold">Bảo hiểm sức khỏe – lựa chọn cho tương lai</p>

@@ -13,14 +13,14 @@ export default class MyDocument extends Document {
                     <meta name="keywords" content="Bảo Hiểm Nhân Thọ Dai-ichi Life Việt Nam, bao hiểm nhân thọ" />
                     <meta name="twitter:card" content="summary" />
                     <meta property="og:site_name" content="Công Ty TNHH Bảo Hiểm Nhân Thọ Dai-ichi Life Việt Nam" />
-                    <meta property="og:url" content="https://bhdaiichilife.com" />
+                    <meta property="og:url" content="baohiemdai-ichi-life.vn" />
                     <meta property="og:locale" content="vi_VN" />
                     <meta property="og:type" content="article" />
                     <meta property="og:title" content="Công Ty TNHH Bảo Hiểm Nhân Thọ Dai-ichi Life Việt Nam" />
                     <meta name="twitter:description" content="Công Ty TNHH Bảo Hiểm Nhân Thọ Dai-ichi Life Việt Nam" />
                     <meta name="twitter:title" content="Công Ty TNHH Bảo Hiểm Nhân Thọ Dai-ichi Life Việt Nam" />
-                    <meta property="og:image" content="https://bhdaiichilife.com/images/upload/dai-ichi-life-logo.png" />
-                    <link href="https://bhdaiichilife.com/images/upload/favicon.png" />
+                    <meta property="og:image" content="/images/common/dai-ichi-life-logo.png" />
+                    <link rel="icon" href="/images/favicon.png" />
 
                     <link rel="preconnect" href="https://fonts.googleapis.com" />
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
