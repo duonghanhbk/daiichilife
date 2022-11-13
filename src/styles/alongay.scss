@@ -1,0 +1,1223 @@
+.btn-call-popup {
+    display: block;
+    position: fixed;
+    z-index: 10000000000;
+    font-family: open sans, sans-serif;
+}
+.btn-call-popup img {
+    width: 70px;
+    height: 70px;
+    background: #ff6b11;
+    border-radius: 100px;
+    box-shadow: 0 0 25px 0 #999;
+    -webkit-animation: roll 0.7s infinite;
+    animation: roll 0.7s infinite;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+@-webkit-keyframes roll {
+    0% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    100% {
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+}
+@keyframes roll {
+    0% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    100% {
+        -webkit-transform: rotate(30deg);
+        transform: rotate(30deg);
+    }
+}
+.btn-call-popup:hover img {
+    background: #24d75b;
+}
+.btn-call-popup span {
+    padding: 0;
+    left: -1px;
+    top: -1px;
+    border-radius: 30px;
+    -webkit-animation: scale1 1s infinite;
+    animation: scale1 1s infinite;
+    -webkit-transform: scale(2, 2);
+    transform: scale(2, 2);
+}
+@-webkit-keyframes scale1 {
+    0% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    100% {
+        -webkit-transform: scale(2, 2);
+        transform: scale(2, 2);
+    }
+}
+@keyframes scale1 {
+    0% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+    100% {
+        -webkit-transform: scale(2, 2);
+        transform: scale(2, 2);
+    }
+}
+.btn-haiau {
+    background: #e21515;
+}
+.btn-haiau-hotline {
+    display: block;
+    position: fixed;
+    z-index: 10000000000;
+    bottom: 93px;
+    left: 123px;
+    font-family: open sans, sans-serif;
+}
+#popup-alo {
+    display: none;
+    font-family: open sans, sans-serif;
+    max-height: 362px;
+    border-radius: 10px;
+    text-align: center;
+    width: 680px;
+    margin-left: -340px;
+    padding-right: 0;
+    left: 50%;
+    top: 16%;
+    background-color: #fff;
+    overflow-y: hidden;
+    z-index: 1111111111111111111;
+    position: fixed;
+    background-color: #fff;
+    filter: alpha(opacity=20);
+}
+#popup-alo .modal-body {
+    min-height: 360px;
+    font-family: open sans, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.alo-title {
+    margin-top: 55px;
+    font-size: 24px;
+    line-height: initial;
+    font-family: open sans, sans-serif;
+}
+.alo-title p {
+    font-size: 24px;
+    color: #000;
+    line-height: initial;
+}
+.alo-input {
+    margin-top: 25px;
+    font-family: open sans, sans-serif;
+}
+.alo-input input {
+    padding: 10px;
+    width: 318px;
+    height: auto;
+    margin: auto;
+    font-family: open sans, sans-serif;
+    box-sizing: content-box;
+    color: #1996d7;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: transparent;
+    display: inline-block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: #1996d7 solid 1px;
+}
+.alo-input input:focus {
+    font-family: open sans, sans-serif;
+    height: auto;
+    box-sizing: content-box;
+    color: #1996d7;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: transparent;
+    display: inline-block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: #1996d7 solid 1px;
+    padding: 10px;
+    width: 318px;
+    outline: none;
+}
+#popup-alo .button-submit {
+    font-family: open sans, sans-serif;
+    margin-top: 25px;
+}
+#popup-alo .button-submit button {
+    height: 50px;
+    padding: 15px 50px;
+    font-family: open sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 50px;
+    background: #1996d7;
+    color: #fff;
+    border: 0;
+}
+#popup-alo .button-submit button:hover {
+    font-family: open sans, sans-serif;
+    opacity: 0.7;
+}
+.alo-message {
+    font-family: open sans, sans-serif;
+    line-height: initial;
+    padding: 30px;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 30px;
+    color: #000;
+}
+#popup-alo .modal-body .close {
+    width: 18px;
+    height: 18px;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    filter: alpha(opacity=20);
+    background-color: #fff;
+    background: url(/img/thue-ngay/page-alo/icon-x.png) no-repeat;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#alo-popup-voucher,
+#alo-popup-voucher-success {
+    display: none;
+    font-family: open sans, sans-serif;
+    max-height: 362px;
+    border-radius: 10px;
+    text-align: center;
+    width: 720px;
+    margin-left: -340px;
+    padding-right: 0;
+    left: 50%;
+    top: 16%;
+    background-color: #fff;
+    overflow-y: hidden;
+    z-index: 100000000000;
+    position: fixed;
+    background-color: #fff;
+    filter: alpha(opacity=20);
+}
+.logo-alo-popup-voucher {
+    width: 720px;
+    margin-left: -340px;
+}
+#alo-popup-voucher .modal-body,
+#alo-popup-voucher-success .modal-body {
+    min-height: 360px;
+    font-family: open sans, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    max-height: 400px;
+    padding: 0;
+}
+#alo-popup-voucher .modal-body .close,
+#alo-popup-voucher-success .modal-body .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 18px;
+    height: 18px;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    filter: alpha(opacity=20);
+    background-color: #fff;
+    background: url(/img/thue-ngay/page-alo/icon-x.png) no-repeat;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#alo-popup-voucher .img-voucher,
+#alo-popup-voucher-success .img-voucher {
+    width: 360px;
+    float: left;
+}
+#alo-popup-voucher .main-voucher,
+#alo-popup-voucher-success .main-voucher {
+    width: 280px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#alo-popup-voucher .main-voucher .title,
+#alo-popup-voucher-success .main-voucher .title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #000;
+    margin: 0;
+    margin-bottom: 10px;
+}
+#alo-popup-voucher .main-voucher p,
+#alo-popup-voucher-success .main-voucher p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+#alo-popup-voucher .main-voucher input,
+#alo-popup-voucher-success .main-voucher input {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+#alo-popup-voucher .main-voucher button,
+#alo-popup-voucher-success .main-voucher button {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background: #f60;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.modal-body {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 15px;
+}
+.logo-popup-alo {
+    width: 680px;
+    margin-left: -340px;
+}
+#popup-banner-alo {
+    display: none;
+    font-family: open sans, sans-serif;
+    max-height: unset;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    margin-left: -200px;
+    padding-right: 0;
+    left: 50%;
+    background-color: #fff;
+    overflow-y: hidden;
+    z-index: 111111111111111;
+    bottom: 50px;
+    position: fixed;
+    background-color: #fff;
+    filter: alpha(opacity=20);
+}
+#popup-banner-alo .modal-body {
+    padding: 0;
+    min-height: 360px;
+    font-family: open sans, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-height: unset !important;
+}
+#popup-banner-alo .button-submit {
+    font-family: open sans, sans-serif;
+    margin-top: 25px;
+    padding-bottom: 40px;
+}
+#popup-banner-alo .button-submit a {
+    padding: 15px 50px;
+    font-family: open sans, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 5px;
+    color: #fff;
+    border: 0;
+    padding: 8px 24px;
+    display: inline-block;
+}
+#popup-banner-alo .button-submit a:hover {
+    font-family: open sans, sans-serif;
+    opacity: 0.7;
+}
+#popup-banner-alo .modal-body .close {
+    width: 36px;
+    height: 36px;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    filter: alpha(opacity=20);
+    background-color: #fff;
+    background: url(/img/alongay/icon/close_button.svg) no-repeat;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.banner-content {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 0 40px;
+}
+#banner-alo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1111111111111111;
+}
+.banner-alo-img {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    max-width: 800px;
+    max-height: 400px;
+}
+.banner-img-alo {
+    border-radius: 10px;
+    z-index: 11111111111111111;
+    position: fixed;
+    top: 20px;
+    cursor: pointer;
+}
+.banner-alo-img-popup {
+    cursor: pointer;
+}
+#logo-banner-alo {
+    position: fixed;
+    z-index: 11111111111111111;
+}
+#backdrop-alo {
+    background-color: #000;
+    z-index: 1111111111;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.backdrop-alo {
+    background-color: #000;
+    z-index: 1111111111;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#backdrop-alo-banner {
+    background-color: #000;
+    z-index: 111111111111111;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.backdrop-alo-banner {
+    background-color: #000;
+    z-index: 111111111111111;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#backdrop-alo-voucher {
+    background-color: #000;
+    z-index: 100000000000;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.backdrop-alo-voucher {
+    background-color: #000;
+    z-index: 100000000000;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#backdrop-alo-testdrive {
+    background-color: #000;
+    z-index: 100000000000;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.backdrop-alo-testdrive {
+    background-color: #000;
+    z-index: 100000000000;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#backdrop-alo-pricequotation {
+    background-color: #000;
+    z-index: 100000000000;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.backdrop-alo-pricequotation {
+    background-color: #000;
+    z-index: 100000000000;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#backdrop-alo-testdrive-shortcut {
+    background-color: #000;
+    z-index: 100000000000;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.backdrop-alo-testdrive-shortcut {
+    background-color: #000;
+    z-index: 100000000000;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#backdrop-alo-price-shortcut {
+    background-color: #000;
+    z-index: 100000000000;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.backdrop-alo-price-shortcut {
+    background-color: #000;
+    z-index: 100000000000;
+    position: fixed;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.list-shortcut-desktop {
+    display: block;
+    position: fixed;
+    z-index: 1000000000;
+}
+.list-shortcut-mobile {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    z-index: 1000000000;
+}
+.shortcut-alo-alo {
+    display: block;
+    bottom: 50px;
+    right: 40px;
+    z-index: 1000000000;
+    margin-bottom: 20px;
+}
+#shortcut-alongay-hotline,
+#shortcut-alongay-hotline-mobile {
+    border-radius: 50%;
+    box-shadow: 0 0 25px 0 #999;
+    width: 48px;
+    height: 48px;
+}
+#shortcut-alongay-zalo,
+#shortcut-alongay-zalo-mobile {
+    border-radius: 50%;
+    box-shadow: 0 0 25px 0 #999;
+    width: 48px;
+    height: 48px;
+}
+#shortcut-alongay-messenger,
+#shortcut-alongay-messenger-mobile {
+    border-radius: 50%;
+    box-shadow: 0 0 25px 0 #999;
+    width: 48px;
+    height: 48px;
+    background: url(../../public/images/all_shortcut.svg) 0 -100px;
+}
+#shortcut-alongay-skype,
+#shortcut-alongay-skype-mobile {
+    border-radius: 50%;
+    box-shadow: 0 0 25px 0 #999;
+    width: 48px;
+    height: 48px;
+    background: url(../../public/images/all_shortcut.svg) 0 -150px;
+}
+#shortcut-alongay-viber,
+#shortcut-alongay-viber-mobile {
+    border-radius: 50%;
+    box-shadow: 0 0 25px 0 #999;
+    width: 48px;
+    height: 48px;
+    background: url(../../public/images/all_shortcut.svg) 0 -200px;
+}
+#shortcut-alongay-email,
+#shortcut-alongay-email-mobile {
+    border-radius: 50%;
+    box-shadow: 0 0 25px 0 #999;
+    width: 48px;
+    height: 48px;
+    background: url(../../public/images/all_shortcut.svg) 0 -250px;
+}
+#shortcut-alongay-address,
+#shortcut-alongay-address-mobile {
+    border-radius: 50%;
+    box-shadow: 0 0 25px 0 #999;
+    width: 48px;
+    height: 48px;
+    background: url(../../public/images/all_shortcut.svg) 0 -300px;
+}
+.shortcut-hide-hotline,
+.shortcut-hide-zalo,
+.shortcut-hide-messenger,
+.shortcut-hide-skype,
+.shortcut-hide-viber,
+.shortcut-hide-email,
+.shortcut-hide-address {
+    display: none;
+}
+.shortcut-show-hotline,
+.shortcut-show-zalo,
+.shortcut-show-messenger,
+.shortcut-show-skype,
+.shortcut-show-viber,
+.shortcut-show-email,
+.shortcut-show-address {
+    display: block;
+}
+.show-desktop-alo {
+    display: block;
+}
+.hide-desktop-alo {
+    display: none !important;
+}
+.show-mobile-alo {
+    display: none;
+}
+.hide-mobile-alo {
+    display: none !important;
+}
+#popup-test-drive {
+    display: none;
+    font-family: open sans, sans-serif;
+    max-height: 362px;
+    border-radius: 10px;
+    text-align: center;
+    width: 680px;
+    margin-left: -340px;
+    padding-right: 0;
+    left: 50%;
+    top: 16%;
+    background-color: #fff;
+    overflow-y: hidden;
+    z-index: 10000000;
+    position: fixed;
+    background-color: #fff;
+    filter: alpha(opacity=20);
+}
+#popup-test-drive .modal-body {
+    min-height: 360px;
+    font-family: open sans, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#popup-test-drive .button-submit {
+    font-family: open sans, sans-serif;
+    margin-top: 25px;
+}
+#popup-test-drive .button-submit button {
+    height: 50px;
+    padding: 15px 50px;
+    font-family: open sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 50px;
+    background: #1996d7;
+    color: #fff;
+    border: 0;
+}
+#popup-test-drive .button-submit button:hover {
+    font-family: open sans, sans-serif;
+    opacity: 0.7;
+}
+#popup-test-drive .modal-body .close {
+    width: 18px;
+    height: 18px;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    filter: alpha(opacity=20);
+    background-color: #fff;
+    background: url(/img/thue-ngay/page-alo/icon-x.png) no-repeat;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.alo-input-testdrive {
+    margin-top: 25px;
+    font-family: open sans, sans-serif;
+}
+.alo-input-testdrive input {
+    padding: 10px;
+    width: 318px;
+    height: auto;
+    margin: auto;
+    font-family: open sans, sans-serif;
+    box-sizing: content-box;
+    color: #000;
+    text-align: left !important;
+    font-size: 14px !important;
+    font-weight: 400;
+    background-color: transparent;
+    display: inline-block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: #1996d7 solid 1px;
+}
+.alo-input-testdrive input:focus {
+    font-family: open sans, sans-serif;
+    height: auto;
+    box-sizing: content-box;
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: transparent;
+    display: inline-block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: #1996d7 solid 1px;
+    padding: 10px;
+    width: 318px;
+    outline: none;
+}
+#popup-price-quotation {
+    display: none;
+    font-family: open sans, sans-serif;
+    max-height: 362px;
+    border-radius: 10px;
+    text-align: center;
+    width: 680px;
+    margin-left: -340px;
+    padding-right: 0;
+    left: 50%;
+    top: 16%;
+    background-color: #fff;
+    overflow-y: hidden;
+    z-index: 10000000;
+    position: fixed;
+    background-color: #fff;
+    filter: alpha(opacity=20);
+}
+#popup-price-quotation .modal-body {
+    min-height: 360px;
+    font-family: open sans, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#popup-price-quotation .button-submit {
+    font-family: open sans, sans-serif;
+    margin-top: 25px;
+}
+#popup-price-quotation .button-submit button {
+    height: 50px;
+    padding: 15px 50px;
+    font-family: open sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 50px;
+    background: #1996d7;
+    color: #fff;
+    border: 0;
+}
+#popup-price-quotation .button-submit button:hover {
+    font-family: open sans, sans-serif;
+    opacity: 0.7;
+}
+#popup-price-quotation .modal-body .close {
+    width: 18px;
+    height: 18px;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    filter: alpha(opacity=20);
+    background-color: #fff;
+    background: url(/img/thue-ngay/page-alo/icon-x.png) no-repeat;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#popup-test-drive-shortcut {
+    display: none;
+    font-family: open sans, sans-serif;
+    max-height: 362px;
+    border-radius: 10px;
+    text-align: center;
+    width: 680px;
+    margin-left: -340px;
+    padding-right: 0;
+    left: 50%;
+    top: 16%;
+    background-color: #fff;
+    overflow-y: hidden;
+    z-index: 10000000;
+    position: fixed;
+    background-color: #fff;
+    filter: alpha(opacity=20);
+}
+#popup-test-drive-shortcut .modal-body {
+    min-height: 360px;
+    font-family: open sans, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#popup-test-drive-shortcut .button-submit {
+    font-family: open sans, sans-serif;
+    margin-top: 25px;
+}
+#popup-test-drive-shortcut .button-submit button {
+    height: 50px;
+    padding: 15px 50px;
+    font-family: open sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 50px;
+    background: #1996d7;
+    color: #fff;
+    border: 0;
+}
+#popup-test-drive-shortcut .button-submit button:hover {
+    font-family: open sans, sans-serif;
+    opacity: 0.7;
+}
+#popup-test-drive-shortcut .modal-body .close {
+    width: 18px;
+    height: 18px;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    filter: alpha(opacity=20);
+    background-color: #fff;
+    background: url(/img/thue-ngay/page-alo/icon-x.png) no-repeat;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+#popup-price-quotation-shortcut {
+    display: none;
+    font-family: open sans, sans-serif;
+    max-height: 362px;
+    border-radius: 10px;
+    text-align: center;
+    width: 680px;
+    margin-left: -340px;
+    padding-right: 0;
+    left: 50%;
+    top: 16%;
+    background-color: #fff;
+    overflow-y: hidden;
+    z-index: 10000000;
+    position: fixed;
+    background-color: #fff;
+    filter: alpha(opacity=20);
+}
+#popup-price-quotation-shortcut .modal-body {
+    min-height: 360px;
+    font-family: open sans, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#popup-price-quotation-shortcut .button-submit {
+    font-family: open sans, sans-serif;
+    margin-top: 25px;
+}
+#popup-price-quotation-shortcut .button-submit button {
+    height: 50px;
+    padding: 15px 50px;
+    font-family: open sans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    border-radius: 50px;
+    background: #1996d7;
+    color: #fff;
+    border: 0;
+}
+#popup-price-quotation-shortcut .button-submit button:hover {
+    font-family: open sans, sans-serif;
+    opacity: 0.7;
+}
+#popup-price-quotation-shortcut .modal-body .close {
+    width: 18px;
+    height: 18px;
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    filter: alpha(opacity=20);
+    background-color: #fff;
+    background: url(/img/thue-ngay/page-alo/icon-x.png) no-repeat;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.alo-mobile-shortcut-item-1 {
+    display: inline-block;
+    width: 100%;
+}
+.alo-mobile-shortcut-item-2 {
+    display: inline-block;
+    width: 50%;
+}
+.alo-mobile-shortcut-item-3 {
+    display: inline-block;
+    width: 33.3333333333%;
+}
+.alo-mobile-shortcut-item-4 {
+    display: inline-block;
+    width: 25%;
+}
+@media (max-width: 976px) {
+    #popup-alo {
+        width: 720px;
+        left: 50%;
+        margin-left: -360px;
+    }
+    .logo-popup-alo {
+        width: 720px;
+        left: 50%;
+        margin-left: -360px;
+    }
+    #popup-test-drive {
+        width: 720px;
+        left: 50%;
+        margin-left: -360px;
+    }
+    #popup-price-quotation {
+        width: 720px;
+        left: 50%;
+        margin-left: -360px;
+    }
+    #popup-price-quotation-shortcut {
+        width: 720px;
+        left: 50%;
+        margin-left: -360px;
+    }
+    #popup-test-drive-shortcut {
+        width: 720px;
+        left: 50%;
+        margin-left: -360px;
+    }
+}
+@media (max-width: 768px) {
+    #popup-alo {
+        width: 320px;
+        left: 50%;
+        margin-left: -162px;
+    }
+    .logo-popup-alo {
+        width: 320px;
+        left: 50%;
+        margin-left: -162px;
+    }
+    #popup-test-drive {
+        width: 320px;
+        left: 50%;
+        margin-left: -162px;
+    }
+    #popup-price-quotation {
+        width: 320px;
+        left: 50%;
+        margin-left: -162px;
+    }
+    #popup-price-quotation-shortcut {
+        width: 320px;
+        left: 50%;
+        margin-left: -162px;
+    }
+    #popup-test-drive-shortcut {
+        width: 320px;
+        left: 50%;
+        margin-left: -162px;
+    }
+    .alo-input input,
+    .alo-input input:focus {
+        width: 230px;
+    }
+}
+@media (max-width: 639px) {
+    .banner-alo-img {
+        max-width: 350px;
+    }
+    .banner-img-alo {
+        max-width: 350px;
+    }
+    #popup-alo {
+        top: 70px;
+    }
+    #popup-test-drive {
+        top: 70px;
+    }
+    #popup-price-quotation {
+        top: 70px;
+    }
+    #popup-price-quotation-shortcut {
+        top: 70px;
+    }
+    #popup-test-drive-shortcut {
+        top: 70px;
+    }
+    .btn-call-popup img {
+        width: 60px;
+        height: 60px;
+    }
+    .alo-title p {
+        font-size: 20px;
+    }
+    .btn-haiau-hotline {
+        bottom: 66px;
+        left: 63px;
+    }
+    .show-desktop-alo {
+        display: none;
+    }
+    .hide-desktop-alo {
+        display: none;
+    }
+    .show-mobile-alo {
+        display: block;
+    }
+    .hide-mobile-alo {
+        display: none !important;
+    }
+    #alo-popup-voucher .img-voucher,
+    #alo-popup-voucher-success .img-voucher {
+        display: none;
+    }
+    #alo-popup-voucher,
+    #alo-popup-voucher-success {
+        width: 320px !important;
+        left: 50% !important;
+        top: 10%;
+        margin-left: -162px !important;
+    }
+    #alo-popup-voucher .main-voucher,
+    #alo-popup-voucher-success .main-voucher {
+        width: 280px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+    .logo-alo-popup-voucher {
+        width: 320px;
+        margin-left: -162px;
+    }
+    #popup-banner-alo {
+        position: fixed;
+        left: 20px;
+        width: calc(100% - 40px);
+        margin-left: 0;
+        bottom: 50px;
+    }
+}
+.navbar-dropdown .navbar-item {
+    color: #000;
+}
+.botron_header_hotline {
+    border-radius: 30px;
+    border: 2px solid #fff;
+    border-color: #fff !important;
+}
+.owl-carousel .owl-dots {
+    display: none;
+}
+.heading_title1 .seprator {
+    width: 100%;
+}
+.heading_title1 .seprator.sep-l {
+    margin: 0 auto;
+}
+.heading_title1 .seprator.sep-l .sep-mg {
+    margin: 0 7px;
+}
+.heading_title1 .sep-dot {
+    font-size: 50px;
+    line-height: 1px;
+    display: table;
+    position: relative;
+    top: -15px;
+    padding: 0 4px;
+}
+.heading_title1 .seprator {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+.heading_title1 span.title-sep {
+    height: 1px;
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 10%;
+    border-top: 3px solid #000;
+    margin-bottom: 30px;
+}
+.heading_title1.style-5 {
+    margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+    .navbar-item,
+    .navbar-link {
+        color: #000;
+    }
+    .btn-call-popup span {
+        display: none !important;
+    }
+}

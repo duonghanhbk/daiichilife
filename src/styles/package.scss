@@ -1,0 +1,147 @@
+tbody tr:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+th:first-child,
+td:first-child {
+    padding-left: 0;
+}
+
+td {
+    color: #666;
+}
+
+th,
+td {
+    padding: 0.5em;
+    text-align: left;
+    border-bottom: 1px solid #ececec;
+    line-height: 1.3;
+    font-size: 0.9em;
+}
+
+.box_hotline247 {
+    background-color: rgb(22, 142, 149);
+    padding: 7px 7px;
+    margin-top: 20px;
+}
+
+.box_hotline247 strong {
+    color: #fff;
+}
+
+.box_hotline247 h2 {
+    margin-top: 0;
+}
+
+.box_hotline247 p {
+    margin-bottom: 0;
+}
+
+#col-875843490 {
+    position: relative;
+}
+
+#col-875843490:before {
+    border-left-style: solid;
+}
+
+#col-875843490:before {
+    position: absolute;
+    content: ' ';
+    height: 100%;
+    top: 0;
+    left: -1px;
+    border-left: 1px dashed #ddd;
+}
+
+#col-875843490:after {
+    border-bottom-style: solid;
+}
+
+#col-875843490:after {
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 0;
+    top: auto;
+    left: 0;
+    bottom: -1px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.box-shadow-3 {
+    position: relative;
+    padding: 14px;
+}
+
+.box-shadow-3:before {
+    border-left-style: solid;
+}
+
+.box-shadow-3:before {
+    position: absolute;
+    content: ' ';
+    height: 100%;
+    top: 0;
+    right: -1px;
+    border-left: 1px dashed #ddd;
+}
+
+.box-shadow-3:after {
+    border-bottom-style: solid;
+}
+
+.box-shadow-3:after {
+    position: absolute;
+    content: ' ';
+    width: 100%;
+    height: 0;
+    top: auto;
+    right: 0;
+    top: -1px;
+    border-bottom: 1px dashed #ddd;
+}
+
+.content_chitiet {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.banner_qc {
+    padding: 20px 0;
+}
+
+@media (max-width: 767px) {
+    .content_chitiet {
+        max-width: 100%;
+    }
+
+    .content_chitiet img {
+        height: auto !important;
+    }
+}
+
+.content_detail {
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.chitiettintuc_2 img {
+    height: auto !important;
+}
+
+.title_quantam {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+    .content_detail {
+        max-width: 100%;
+    }
+
+    .content_detail img {
+        height: auto !important;
+    }
+}

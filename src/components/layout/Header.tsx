@@ -1,57 +1,88 @@
+import Link from 'next/link'
+import classNames from 'classnames'
+import useScrolling from 'hooks/useScrolling'
+
 const Header = () => {
+    const { isScroll } = useScrolling()
     return (
-        <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
-            <a href="index.html" className="navbar-brand d-flex align-items-center">
-                <h1 className="m-0">
-                    <img className="img-fluid me-3" src="img/icon/icon-02-primary.png" alt="" />
-                    Insure
-                </h1>
-            </a>
-            <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span className="navbar-toggler-icon" />
-            </button>
-            <div className="collapse navbar-collapse" id="navbarCollapse">
-                <div className="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
-                    <a href="index.html" className="nav-item nav-link">
-                        Home
-                    </a>
-                    <a href="about.html" className="nav-item nav-link">
-                        About Us
-                    </a>
-                    <a href="service.html" className="nav-item nav-link">
-                        Our Services
-                    </a>
-                    <div className="nav-item dropdown">
-                        <a href="/#" className="nav-link dropdown-toggle active" data-bs-toggle="dropdown">
-                            Pages
-                        </a>
-                        <div className="dropdown-menu bg-light border-0 m-0">
-                            <a href="feature.html" className="dropdown-item active">
-                                Features
-                            </a>
-                            <a href="appointment.html" className="dropdown-item">
-                                Appointment
-                            </a>
-                            <a href="team.html" className="dropdown-item">
-                                Team Members
-                            </a>
-                            <a href="testimonial.html" className="dropdown-item">
-                                Testimonial
-                            </a>
-                            <a href="404.html" className="dropdown-item">
-                                404 Page
-                            </a>
+        <section className="section is-paddingless" style={{ paddingBottom: '0.5rem', marginBottom: 20 }}>
+            <nav className={classNames('navbar', isScroll && 'scrollq')} role="navigation" aria-label="main navigation">
+                <div className="container">
+                    <div className="navbar-brand ">
+                        <Link className="navbar-item" href="https://bhdaiichilife.com">
+                            <picture>
+                                <source
+                                    media="(max-width: 768px)"
+                                    srcSet="https://bhdaiichilife.com/images/upload/dai-ichi-life-logo.png"
+                                />
+                                <img className="logo" src="https://bhdaiichilife.com/images/upload/dai-ichi-life-logo.png" alt="" />
+                            </picture>
+                        </Link>
+                        <Link
+                            href="/"
+                            role="button"
+                            className="navbar-burger burger"
+                            aria-label="menu"
+                            aria-expanded="false"
+                            data-target="navbarBasicExample"
+                        >
+                            <span aria-hidden="true" /> <span aria-hidden="true" /> <span aria-hidden="true" />
+                        </Link>
+                    </div>
+                    <div id="navbarBasicExample" className="navbar-menu">
+                        <div className="navbar-start">
+                            <Link className="navbar-item" href="/">
+                                Trang chủ
+                            </Link>
+
+                            <Link className="navbar-item" href="/gioi-thieu">
+                                Giới thiệu
+                            </Link>
+                            <div className="navbar-item has-dropdown is-hoverable">
+                                <Link className="navbar-item" href="/">
+                                    Các gói sản phẩm
+                                </Link>
+                                <div className="navbar-dropdown">
+                                    <Link className="navbar-item" href="/cac-goi-bao-hiem/bao-hiem-danh-cho-ca-gia-dinh">
+                                        Bảo hiểm dành cho cả gia đình
+                                    </Link>
+                                    <Link className="navbar-item" href="/cac-goi-bao-hiem/bao-hiem-cho-me-va-be">
+                                        Bảo hiểm cho mẹ và bé
+                                    </Link>
+                                    <Link className="navbar-item" href="/cac-goi-bao-hiem/bao-hiem-doc-lap-cho-be-yeu">
+                                        Bảo hiểm độc lập cho bé yêu
+                                    </Link>
+                                    <Link className="navbar-item" href="/cac-goi-bao-hiem/bao-hiem-cham-soc-suc-khoe">
+                                        Bảo hiểm chăm sóc sức khỏe
+                                    </Link>
+                                </div>
+                            </div>
+                            <Link className="navbar-item" href="/dich-vu-khach-hang">
+                                Dịch vụ khách hàng
+                            </Link>
+                            <Link className="navbar-item" href="/cau-chuyen-bao-hiem">
+                                Câu chuyện bảo hiểm
+                            </Link>
+                            <Link className="navbar-item" href="/tin-tuc">
+                                Tin tức
+                            </Link>
+                            <Link className="navbar-item" href="/lien-he">
+                                Liên Hệ
+                            </Link>
+                        </div>
+                        <div className="navbar-end">
+                            <div className="navbar-item">
+                                <div className="buttons ">
+                                    <Link href="tel:0978041365" className="button is-primary botron_header_hotline">
+                                        <strong>Tel : 0978041365</strong>
+                                    </Link>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <a href="contact.html" className="nav-item nav-link">
-                        Contact Us
-                    </a>
                 </div>
-            </div>
-            <a href="/#" className="btn btn-primary px-3 d-none d-lg-block">
-                Get A Quote
-            </a>
-        </nav>
+            </nav>
+        </section>
     )
 }
 

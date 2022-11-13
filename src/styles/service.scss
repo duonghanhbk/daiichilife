@@ -1,0 +1,47 @@
+.listtaisao .column .card-content ul {
+    margin-left: 0;
+}
+
+.listtaisao .column .card-content ul li {
+    list-style-type: none;
+}
+
+.listtin {
+    max-width: 1139px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.banner_qc {
+    padding: 20px 0;
+}
+
+.card {
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.chiaba {
+    padding: 15px;
+    width: 33.333%;
+    float: left;
+}
+
+.card-content h3 {
+    min-height: 62px;
+}
+
+@media (max-width: 767px) {
+    .chiaba {
+        width: 100%;
+    }
+
+    .listtin {
+        max-width: 100%;
+    }
+
+    .listtin img {
+        height: auto !important;
+    }
+}
