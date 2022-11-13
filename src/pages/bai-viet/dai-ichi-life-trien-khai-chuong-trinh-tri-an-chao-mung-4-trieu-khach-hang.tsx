@@ -1,5 +1,7 @@
-import Banner from 'components/common/Banner'
-import GratitudeEvent from 'components/blog/GratitudeEvent'
+import dynamic from 'next/dynamic'
+
+const Banner = dynamic(() => import('components/common/Banner'))
+const GratitudeEvent = dynamic(() => import('components/blog/GratitudeEvent'))
 
 const GratitudeEventPost = () => (
     <>

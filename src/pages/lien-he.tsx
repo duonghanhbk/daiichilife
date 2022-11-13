@@ -1,4 +1,6 @@
-import Information from 'components/contact/Information'
+import dynamic from 'next/dynamic'
+
+const Information = dynamic(() => import('components/contact/Information'))
 
 const Contact = () => {
     return <Information />

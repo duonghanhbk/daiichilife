@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <title>Công Ty TNHH Bảo Hiểm Nhân Thọ Dai-ichi Life Việt Nam</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
-            <Script src="https://kit.fontawesome.com/a076d05399.js" crossOrigin="anonymous" />
+            <Script src="https://kit.fontawesome.com/566c608ace.js" crossOrigin="anonymous" />
             <Layout>
                 <Component {...pageProps} />
             </Layout>

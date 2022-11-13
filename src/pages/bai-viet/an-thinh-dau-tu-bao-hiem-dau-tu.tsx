@@ -1,5 +1,7 @@
-import Banner from 'components/common/Banner'
-import Investment from 'components/blog/Investment'
+import dynamic from 'next/dynamic'
+
+const Banner = dynamic(() => import('components/common/Banner'))
+const Investment = dynamic(() => import('components/blog/Investment'))
 
 const InvestmentPost = () => (
     <>

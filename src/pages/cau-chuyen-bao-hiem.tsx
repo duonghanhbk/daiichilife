@@ -1,5 +1,7 @@
-import Banner from 'components/common/Banner'
-import Listin from 'components/testimonial/Listin'
+import dynamic from 'next/dynamic'
+
+const Banner = dynamic(() => import('components/common/Banner'))
+const Listin = dynamic(() => import('components/testimonial/Listin'))
 
 const Testimonial = () => {
     return (

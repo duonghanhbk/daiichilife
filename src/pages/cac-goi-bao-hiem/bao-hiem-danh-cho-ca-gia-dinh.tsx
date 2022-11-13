@@ -1,5 +1,7 @@
-import Banner from 'components/common/Banner'
-import Family from 'components/package/FamilyPackage'
+import dynamic from 'next/dynamic'
+
+const Banner = dynamic(() => import('components/common/Banner'))
+const Family = dynamic(() => import('components/package/FamilyPackage'))
 
 const FamilyPackage = () => (
     <>
