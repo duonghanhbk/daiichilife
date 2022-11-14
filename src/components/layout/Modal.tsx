@@ -1,9 +1,34 @@
-import { useContext } from 'react'
+import { useContext, useRef } from 'react'
 import classNames from 'classnames'
+import EmailJs from '@emailjs/browser'
+import { toast } from 'react-hot-toast'
 import { ActionType, AppContext } from 'context'
 
 const Modal = () => {
+    const form = useRef(null)
     const { state, dispatch } = useContext(AppContext)
+
+    const sendEmail = (e: any) => {
+        e.preventDefault()
+        if (form?.current) {
+            EmailJs.sendForm('service_s44oms8', 'template_vvn7fzf', form.current, 'vMrlm9l2bL3dmWrbW').then(
+                (result) => {
+                    if (result.status === 200) {
+                        dispatch({ type: ActionType.CloseModal })
+                        toast.success('Chúng tôi đã nhận được thông tin từ bạn. Chuyên viên tư vấn sẽ liên hệ với bạn để tư vấn.', {
+                            duration: 3000,
+                        })
+                        e.target?.reset()
+                    }
+                },
+                (error) => {
+                    if (error) {
+                        toast.error('Thông tin đăng ký không thành công. Vui lòng thử lại', { duration: 3000 })
+                    }
+                },
+            )
+        }
+    }
     return (
         <div className={classNames('modal popup_pro', state.isOpenModal && 'is-active')}>
             <div className="modal-background" />
@@ -20,12 +45,7 @@ const Modal = () => {
                     <div className="widget">
                         <h3 className="widget-title">Đăng ký tư vấn</h3>
                         <div className="widget-content">
-                            <form
-                                className="phone-call-register9999"
-                                action="https://bhdaiichilife.com/lien-he"
-                                acceptCharset="UTF-8"
-                                method="post"
-                            >
+                            <form className="phone-call-register9999" ref={form} onSubmit={sendEmail} acceptCharset="UTF-8" method="post">
                                 <input type="hidden" name="_token" defaultValue="PwWILy1IcNERZcgRpsc7faFydGt02ZiltCrmUNet" />
                                 <div className="field">
                                     <div className="control has-icons-left has-icons-right">

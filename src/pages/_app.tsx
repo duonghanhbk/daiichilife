@@ -1,13 +1,10 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Script from 'next/script'
+import { Toaster } from 'react-hot-toast'
 import { AppProvider } from 'context'
 import Layout from 'components/layout'
 
-// import 'styles/css/bootstrap.min.css'
-// import 'styles/animate/animate.min.css'
-// import 'styles/animate/animate.css'
-// import 'styles/css/style.css'
 import 'styles/index.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -22,6 +19,7 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <Layout>
                     <Component {...pageProps} />
                 </Layout>
+                <Toaster />
             </AppProvider>
         </>
     )

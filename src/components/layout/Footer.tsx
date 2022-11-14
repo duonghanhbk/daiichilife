@@ -1,6 +1,34 @@
+import { useContext, useRef } from 'react'
 import Link from 'next/link'
+import EmailJs from '@emailjs/browser'
+import { toast } from 'react-hot-toast'
+import { ActionType, AppContext } from 'context'
 
 const Footer = () => {
+    const form = useRef(null)
+    const { dispatch } = useContext(AppContext)
+
+    const sendEmail = (e: any) => {
+        e.preventDefault()
+        if (form?.current) {
+            EmailJs.sendForm('service_s44oms8', 'template_vvn7fzf', form.current, 'vMrlm9l2bL3dmWrbW').then(
+                (result) => {
+                    if (result.status === 200) {
+                        dispatch({ type: ActionType.CloseModal })
+                        toast.success('Chúng tôi đã nhận được thông tin từ bạn. Chuyên viên tư vấn sẽ liên hệ với bạn để tư vấn.', {
+                            duration: 3000,
+                        })
+                        e.target?.reset()
+                    }
+                },
+                (error) => {
+                    if (error) {
+                        toast.error('Thông tin đăng ký không thành công. Vui lòng thử lại', { duration: 3000 })
+                    }
+                },
+            )
+        }
+    }
     return (
         <footer className="footer has-text-white">
             <div className="container">
@@ -52,7 +80,7 @@ const Footer = () => {
                     </div>
                     <div className="column">
                         <h3 className="title has-text-white is-uppercase">Tư vấn miễn phí</h3>
-                        <form className="phone-call-register9999" action="/lien-he" acceptCharset="UTF-8" method="post">
+                        <form className="phone-call-register9999" acceptCharset="UTF-8" method="post" ref={form} onSubmit={sendEmail}>
                             <input type="hidden" name="_token" defaultValue="8Zl1zaelM8C0LfJggiFOXJXiyUVhy7dMUOAaXtQ7" />
                             <div className="field">
                                 <div className="control has-icons-left has-icons-right">
