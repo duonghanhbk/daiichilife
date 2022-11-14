@@ -1,8 +1,14 @@
-import { memo } from 'react'
+import { memo, useContext } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { AppContext, ActionType } from 'context'
 
 const Article = () => {
+    const { dispatch } = useContext(AppContext)
+
+    const handleOpenModal = () => {
+        dispatch({ type: ActionType.OpenModal })
+    }
     return (
         <div className="container">
             <section className="section article">
@@ -111,7 +117,7 @@ const Article = () => {
                     </div>
                 </div>
             </section>
-            <div className="dktvan has-text-centered has-text-weight-bold">
+            <div className="dktvan has-text-centered has-text-weight-bold" onClick={handleOpenModal}>
                 <div className="container">
                     <div className="clicktuvan">ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</div>
                 </div>
@@ -244,7 +250,7 @@ const Article = () => {
                     </div>
                 </div>
             </section>
-            <div className="dktvan has-text-centered has-text-weight-bold">
+            <div className="dktvan has-text-centered has-text-weight-bold" onClick={handleOpenModal}>
                 <div className="container">
                     <div className="clicktuvan">ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</div>
                 </div>
@@ -440,7 +446,7 @@ const Article = () => {
                     </div>
                 </div>
             </section>
-            <div className="dktvan has-text-centered has-text-weight-bold">
+            <div className="dktvan has-text-centered has-text-weight-bold" onClick={handleOpenModal}>
                 <div className="container">
                     <div className="clicktuvan">ĐĂNG KÝ TƯ VẤN MIỄN PHÍ</div>
                 </div>

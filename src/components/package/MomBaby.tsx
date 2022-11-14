@@ -118,7 +118,7 @@ const MomBaby = () => {
                         <p>
                             <span style={{ fontSize: 14 }}>
                                 Nếu Băn khoăn nên mua bảo hiểm nào cho mẹ và bé, giá bao nhiêu, hãy để lại số điện thoại hoặc liên hệ trực
-                                tiếp tới hotline/zalo để được trò chuyện cùng các Chuyên Viên Tư Vân:<strong> 0919661950</strong>
+                                tiếp tới hotline/zalo để được trò chuyện cùng các Chuyên Viên Tư Vân: <strong>0832882222</strong>
                             </span>
                         </p>
                         <h2 style={{ textAlign: 'center' }}>

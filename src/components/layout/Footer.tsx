@@ -12,8 +12,8 @@ const Footer = () => {
                                 <span className="icon">
                                     <i className="fas fa-map-marker-alt" />
                                 </span>
-                                <Link href="/" target="_blank" className="has-text-white">
-                                    195 Khâm Thiên, Thổ Quan, Đống Đa, Hà Nội
+                                <Link href="/lien-he" target="_blank" className="has-text-white">
+                                    149-151 Nguyễn Văn Trỗi, Q. Phú Nhuận, TP Hồ Chí Minh
                                 </Link>
                             </li>
                             <li>
@@ -36,7 +36,7 @@ const Footer = () => {
                                 <span className="icon">
                                     <i className="fas fa-comment" />
                                 </span>
-                                <Link href="/" className="has-text-white">
+                                <Link href="/lien-he" className="has-text-white">
                                     Tư vấn miễn phí 24/7
                                 </Link>
                             </li>

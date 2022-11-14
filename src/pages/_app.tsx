@@ -1,6 +1,7 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 import Script from 'next/script'
+import { AppProvider } from 'context'
 import Layout from 'components/layout'
 
 // import 'styles/css/bootstrap.min.css'
@@ -17,9 +18,11 @@ function MyApp({ Component, pageProps }: AppProps) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <Script src="https://kit.fontawesome.com/566c608ace.js" crossOrigin="anonymous" />
-            <Layout>
-                <Component {...pageProps} />
-            </Layout>
+            <AppProvider>
+                <Layout>
+                    <Component {...pageProps} />
+                </Layout>
+            </AppProvider>
         </>
     )
 }

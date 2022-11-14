@@ -125,12 +125,10 @@ $link: #ec1f28;
 .sidebar {
     position: sticky;
     top: 0;
-    padding: 1rem;
+    padding: 2.5rem 1.25rem 0.5rem;
 }
 .sidebar .widget {
-    margin-bottom: 2rem;
     border-radius: 6px;
-    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
 }
 .sidebar .widget .widget-title {
     background-color: #ec1f28;
